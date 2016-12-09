@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/tela4">
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/button7"
+        android:textColor="#122418"
+        android:onClick="meetup"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/vimeo" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/button8"
+        android:background="@drawable/yt"
+        android:alpha=".8"
+        android:textColor="#122418"
+        android:onClick="uiutubiu"
+        android:textSize="15dp"
+        android:layout_above="@+id/button7"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="SAIR"
+        android:id="@+id/button9"
+        android:background="@drawable/botao"
+        android:alpha=".8"
+        android:textColor="#122418"
+        android:onClick="sair2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="sobre"
+        android:id="@+id/button10"
+        android:background="@drawable/botao"
+        android:alpha=".8"
+        android:textColor="#122418"
+        android:onClick="sobre"
+        android:layout_above="@+id/button9"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="&lt;"
+        android:id="@+id/button11"
+        android:background="@drawable/botao"
+        android:alpha=".8"
+        android:textColor="#122418"
+        android:onClick="volta"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10" />
+
+</RelativeLayout>
